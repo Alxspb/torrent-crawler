@@ -1,4 +1,4 @@
-class Result:
+class Torrent:
     def __init__(self):
         self.name = None
         self.magnet = None
