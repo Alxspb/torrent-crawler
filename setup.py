@@ -4,13 +4,13 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setup(
-    name='search-torrent',
-    description='Search for torrents using command line',
-    version='1.4.2',
-    url='http://github.com/rajat19/torrent-crawler',
-    download_url='https://github.com/rajat19/torrent-crawler/releases',
-    author='Rajat Srivastava',
-    author_email='rajatsri94@gmail.com',
+    name='torrent-crawler',
+    description='Library to search any torrents',
+    version='1.0.0',
+    url='https://github.com/Alxspb/torrent-crawler',
+    download_url='https://github.com/Alxspb/torrent-crawler/releases',
+    author='Alxspb',
+    author_email='alxspb@list.ru',
     long_description=long_description,
     long_description_content_type='text/markdown',
     packages=find_packages(),

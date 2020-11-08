@@ -1,7 +1,7 @@
 from bs4 import BeautifulSoup
 import requests
-from torrent_crawler.constants import Constants
-from torrent_crawler.helper import Helper
+from old.constants import Constants
+from old.helper import Helper
 
 
 class Subtitle:

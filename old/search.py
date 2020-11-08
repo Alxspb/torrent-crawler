@@ -1,13 +1,13 @@
 import signal
 import traceback
 from typing import Dict, List
-from torrent_crawler.constants import Constants
-from torrent_crawler.color import Color
-from torrent_crawler.crawler import Crawler
-from torrent_crawler.helper import Helper
-from torrent_crawler.models import Movie, Torrents
+from old.constants import Constants
+from old.color import Color
+from old.crawler import Crawler
+from old.helper import Helper
+from old.models import Movie, Torrents
 from torrent_crawler.print import Print
-from torrent_crawler.subtitle import Subtitle
+from old.subtitle import Subtitle
 
 
 def sigint_handler(signum, frame):

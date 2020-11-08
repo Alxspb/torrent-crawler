@@ -1,5 +1,5 @@
-from torrent_crawler.color import Color
-from torrent_crawler.constants import Constants
+from old.color import Color
+from old.constants import Constants
 
 
 class Print:

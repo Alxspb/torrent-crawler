@@ -1,6 +1,6 @@
 from flask import Flask, request
-from torrent_crawler.search import Search, SearchQuery
-from torrent_crawler.constants import Constants
+from old.search import Search, SearchQuery
+from old.constants import Constants
 import json
 
 app = Flask(__name__)
